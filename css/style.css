@@ -28,7 +28,30 @@ a {
   line-height: 1.4;
   letter-spacing: 1px;
 }
-
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+}
+.logo {
+  width: 150px;
+}
+.menu li {
+  margin: auto 12px;
+}
+.menu li a {
+  font-size: 16px;
+  color: black;
+  letter-spacing: normal;
+  font-weight: 500;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
 h1 {
   text-align: center;
   color: #036f3b;
@@ -123,20 +146,19 @@ ul li {
   border-radius: 10px;
   margin: 10px auto;
 }
-.cta-div{
-  margin: 20px auto;
+.cta-div {
+  margin: 40px auto;
   text-align: center;
-
 }
-
-
-
-
-
-
-
-
-
+.name-time p {
+  margin: 0;
+}
+.name-time {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+}
 
 footer ul {
   display: flex;
@@ -155,4 +177,109 @@ footer ul li a {
 footer {
   border-top: black solid 0.1px;
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.36);
+}
+
+@media only screen and (max-width: 1500px) {
+  main.container {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  main.container {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 994px) {
+  main.container {
+    width: 85%;
+  }
+  h1 {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo {
+    width: 100px;
+    margin: auto;
+    margin-bottom: 5px;
+  }
+  h3 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 21px;
+  }
+  h1 {
+    font-size: 27px;
+  }
+  .img {
+    width: 65%;
+  }
+  .point li {
+    display: grid;
+    grid-template-columns: 1fr 200px;
+  }
+  .point li div {
+    margin: auto;
+  }
+  .title-div h2 {
+    color: white;
+    width: 83%;
+  }
+  .menu li {
+    text-align: center;
+  }
+  .hero {
+    display: block;
+  }
+}
+@media only screen and (max-width: 414px) {
+  main.container {
+    width: 95%;
+  }
+
+  .menu li a {
+    font-size: 14px;
+  }
+  .menu li {
+    margin: auto 7px;
+  }
+  .point li {
+    display: block;
+  }
+  .title-div h2 {
+    color: white;
+    width: 87%;
+    font-size: 20px;
+  }
+  .name-time {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .point li div {
+    margin: 15px auto;
+}
+footer ul li {
+  margin: 10px auto;
+}
+}
+
+@media only screen and (max-width: 375px) {
+  .help img {
+    width: 260px;
+    float: none;
+  }
+  .help {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+  }
+
 }

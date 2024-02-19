@@ -1,0 +1,139 @@
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+main.container {
+  width: 50%;
+  margin: auto;
+}
+
+.red {
+  color: red;
+  font-weight: 600;
+}
+
+img {
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+a {
+  line-height: 1.4;
+  letter-spacing: 1px;
+}
+
+h1 {
+  text-align: center;
+  color: #036f3b;
+  font-size: 40px;
+  margin: auto;
+  text-shadow: #23b956 1px 0 7px;
+  text-transform: uppercase;
+}
+
+.img {
+  width: 80%;
+  margin: auto;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 25px 0;
+}
+
+h3 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 24px;
+}
+.help img{
+    width: 260px;
+    float: right;
+    margin: auto;
+}
+
+
+i{
+    margin: 5px;
+    font-size: 20px;
+}
+
+ul li{
+    margin: 25px 0;
+}
+
+
+.point li{
+    list-style-type: square;
+}
+
+.point li p{
+    text-align: justify;
+    margin: auto;
+    margin-right: 15px;
+
+}
+.point li {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+}
+.point li div{
+    width: 100%;
+}
+
+
+.title-div{
+    background-color: #036f3b;
+}
+.title-div h2{
+    color: white;
+    width: 55%;
+    margin: 15px auto;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.link{
+    color: red;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+
+.img{
+    width: 30%;
+}
+
+
+
+
+
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer ul li {
+  margin: 20px;
+}
+
+footer ul li a {
+  color: black;
+}
+
+footer {
+  border-top: black solid 0.1px;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.36);
+}

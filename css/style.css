@@ -54,65 +54,79 @@ h3 {
   text-decoration: underline;
   font-size: 24px;
 }
-.help img{
-    width: 260px;
-    float: right;
-    margin: auto;
+.help img {
+  width: 260px;
+  float: right;
+  margin: auto;
 }
 
-
-i{
-    margin: 5px;
-    font-size: 20px;
+i {
+  margin: 5px;
+  font-size: 20px;
 }
 
-ul li{
-    margin: 25px 0;
+ul li {
+  margin: 25px 0;
 }
 
-
-.point li{
-    list-style-type: square;
+.point li {
+  list-style-type: square;
 }
 
-.point li p{
-    text-align: justify;
-    margin: auto;
-    margin-right: 15px;
-
+.point li p {
+  text-align: justify;
+  margin: auto;
+  margin-right: 15px;
 }
 .point li {
-    display: grid;
-    grid-template-columns: 1fr 300px;
+  display: grid;
+  grid-template-columns: 1fr 300px;
 }
-.point li div{
-    width: 100%;
+.point li div {
+  width: 100%;
+}
+
+.title-div {
+  background-color: #036f3b;
+}
+.title-div h2 {
+  color: white;
+  width: 55%;
+  margin: 15px auto;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.link {
+  color: red;
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+.img {
+  width: 50%;
+}
+.center {
+  margin: auto;
+  text-align: center;
+  padding-bottom: 25px;
+}
+.cta {
+  text-transform: uppercase;
+  color: white;
+  background-color: red;
+  font-size: 24px;
+  font-weight: 800;
+  padding: 12px 50px;
+  border-radius: 10px;
+  margin: 10px auto;
 }
 
 
-.title-div{
-    background-color: #036f3b;
-}
-.title-div h2{
-    color: white;
-    width: 55%;
-    margin: 15px auto;
-    padding: 10px;
-    font-size: 30px;
-    text-align: center;
-}
 
 
-.link{
-    color: red;
-    font-weight: 900;
-    text-decoration: underline;
-}
 
-
-.img{
-    width: 30%;
-}
 
 
 

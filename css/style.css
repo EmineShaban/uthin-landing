@@ -1,9 +1,9 @@
 body {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 main.container {
-  width: 55%;
+  width: 65%;
   margin: auto;
 }
 
@@ -25,7 +25,7 @@ h6,
 p,
 li,
 a {
-  line-height: 1.4;
+  line-height: 1.6;
   letter-spacing: 1px;
 }
 header {
@@ -75,28 +75,43 @@ text-shadow: #23b956 1px 0 1px;
   width: 80%;
   margin: auto;
 }
-
-.hero {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 25px 0;
+.border{
+  border: #036f3b 2px solid;
+  padding: 10px;
+  text-align: center;
+  font-weight: 500;
+  
 }
-
+.hero {
+  display: block;
+}
+.hero .img{
+  width: 45%;
+  margin: 25px auto
+  }
 h3 {
   text-align: left;
    font-size: 22px;
+}
+.help{
+  display: flex;
 }
 .help img {
   width: 260px;
   float: right;
   margin: auto;
 }
-
+.margin{
+  margin: 25px auto;
+}
 i {
   margin: 5px;
   font-size: 20px;
 }
-
+.flex-ves-img{
+  width: 30%;
+  float: right;
+}
 ul li {
   margin: 25px 0;
 }
@@ -110,16 +125,16 @@ ul li {
   margin: auto; 
 }
  
-
+ 
 .title-div {
   background-color: #036f3b;
   margin: 35px 0;
 }
 .title-div h2 {
   color: white;
-  width: 55%;
+  width: 65%;
   margin: 15px auto;
-  padding: 10px;
+  padding: 20px;
   font-size: 30px;
   text-align: center;
 }
@@ -165,6 +180,22 @@ ul li {
   margin: auto;
 }
 
+.before{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.before-div h3{
+  text-align: center;
+}
+.img-b{
+  width: 55%;
+  margin: auto;
+  margin-bottom: 15px;
+}
+ul.square li{
+  list-style-type:square
+}
 footer ul {
   display: flex;
   justify-content: center;
